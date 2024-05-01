@@ -54,27 +54,27 @@
     "src": "src"
   },
   "dependencies": {
-    "amqp-connection-manager": "^3.7.0",
-    "amqplib": "^0.8.0",
-    "debug": "^4.3.2",
+    "amqp-connection-manager": "^4.1.14",
+    "amqplib": "^0.10.4",
+    "debug": "^4.3.4",
     "lodash": "^4.17.21",
     "nats": "^2.5.0",
-    "redis": "^3.1.2"
+    "redis": "^4.6.13"
   },
   "devDependencies": {
-    "@feathersjs/feathers": "^5.0.0-pre.5",
-    "@semantic-release/commit-analyzer": "^9.0.1",
-    "@semantic-release/npm": "^8.0.2",
-    "@semantic-release/release-notes-generator": "^10.0.2",
-    "@types/node": "^16.11.6",
-    "bson": "^4.5.3",
-    "dtslint": "^4.2.0",
-    "mocha": "^9.1.3",
-    "npm-check-updates": "^11.8.5",
+    "@feathersjs/feathers": "^5.0.24",
+    "@semantic-release/commit-analyzer": "^12.0.0",
+    "@semantic-release/npm": "^12.0.0",
+    "@semantic-release/release-notes-generator": "^13.0.0",
+    "@types/node": "^20.12.7",
+    "bson": "^6.6.0",
+    "dtslint": "^4.2.1",
+    "mocha": "^10.4.0",
+    "npm-check-updates": "^16.14.20",
     "nyc": "^15.1.0",
-    "semantic-release": "^18.0.0",
-    "semistandard": "^16.0.1",
-    "typescript": "^4.4.4"
+    "semantic-release": "^23.0.8",
+    "semistandard": "^17.0.0",
+    "typescript": "^5.4.5"
   },
   "mocha": {
     "timeout": 30000,
